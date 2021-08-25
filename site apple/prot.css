@@ -3,16 +3,14 @@
     margin: 0;
     border: 0;
     padding: 0;
-    list-style: none;
-    
+    list-style: none;  
 }
 
 header{
     width: 100%;
     height: 44px;
-    
     background-color: rgb(48, 48, 48);
-    
+    position: fixed;
 }
 
 ul{
@@ -22,42 +20,87 @@ ul{
     display: flex;
     margin: auto;
     align-items: center;
-    
-    
 }
 
 .titulo{
     text-decoration: none;
     color: rgb(255, 255, 255);
-    
-
-
-
 }
 
 .quadro1{
     text-align:center;
     height: 800px;
     width: 100%;
-    padding-top: 40px
-    
+    padding-top: 40px;
+    background-image: url(img/iphone_pro.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 h2{
     font-size: 50px;
-
-
 }
 
 .titulo2{
     text-decoration: none;
+}
 
+.quadro2{
+    text-align: center;
+    height: 40px;
+    width: 100%;
+    background-color: rgb(248, 247, 247);
+    padding-top: 8px;
+}
 
+.link1{
+    text-decoration: none;
+}
+
+.quadro3{
+    text-align:center;
+    height: 800px;
+    width: 100%;
+    padding-top: 40px;
+    background-image: url(img/iphone-2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.H22{
+    color: white;
+}
+
+.P22{
+    color: white;
+}
+
+.quadro4{
+    text-align:center;
+    height: 800px;
+    width: 100%;
+    padding-top: 40px;
+    background-image: url(img/ipad_pro.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.linha1{
+    text-align: center;
 
 }
 
+.coluna1{
+    background-image: url(img/smart1.jpg);
+    height: 600px;
+    background-position: center;
+    
+}
+
+.coluna2{
+    background-image: url(img/mac1.jpg);
+    color: white;
+    background-position: center;
 
 
-
-
-
+}
